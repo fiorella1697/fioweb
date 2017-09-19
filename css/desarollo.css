@@ -1,0 +1,152 @@
+#menu-container{
+	background-color: black;
+	color: white;
+	padding: 3px;
+	font-family: 'Droid Serif', serif;
+	position: fixed;
+	z-index: 1;
+	width: 100%;
+}
+#menu-container h1{
+	color: 
+}
+#menu-container a{
+	color: white;
+}
+/*#menu-container ul{
+	display: flex;
+	justify-content: flex-end;
+}*/
+
+#menu-container .nav-link:hover{
+	color: #444;
+}
+
+#menu-container .dropdown-menu.show{
+	background-color: black;
+}
+#menu-container .dropdown-menu .dropdown-item:hover{
+	color: #444;
+	background-color: black;
+}
+#jumbotron{
+	background-image: url(../images/laptop.jpg);
+	font-family: 'Quicksand', sans-serif;
+	padding-top: 150px;
+	padding-bottom: 120px;
+}
+#jumbotron h1, 
+#jumbotron p{
+	color: white;
+}
+
+#jumbotron .btn{
+	background-color: #444;
+	border: none;
+}
+
+.container #accordion{
+	margin-bottom: 150px;
+	margin-top: 150px; 
+}
+
+.container #accordion a{
+	color: black;
+}
+.container #accordion .card .card-header{
+	background-color: rgba(54, 86, 71, 0.88);
+}
+
+.main-content-area .container{
+	padding-top: 120px;
+	padding-bottom: 100px;
+	width: 50%; 
+}
+.main-content-area .card{
+	background-color: #8FA75F;
+}
+.main-content-area h2{
+	text-align: center;
+	font-size: 40px;
+	margin-bottom: 0;
+	font-family: 'Open Sans', sans-serif;
+	padding-top: 20px; 
+
+}
+.main-content-area .container p{
+	color: black;
+	margin: 20px;
+	font-family: 'Sacramento', cursive;
+	font-size: 28px;
+}
+.main-content-area .container p a{
+	color: red;
+}
+.main-content-area .container .row article img{
+	width: 100%;
+	padding: 30px;
+}
+
+#footer-container{
+	background-color: black;
+	color: white;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#footer-container .widget-newsletter{
+	background: #8FA75F;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+#footer-container .widget-newsletter h4, p, label{
+	color: black;
+	font-family: 'Quicksand', sans-serif;
+}
+#footer-container .widget-newsletter button{
+	background: black;
+	border:
+	 black;
+}
+#footer-container .widget-newsletter button:hover{
+	background: #151414;
+}
+
+#footer-container a{
+	color: white;
+}
+#footer-container p {
+	padding-top: 5px;
+}
+#footer-container .social{
+	display: flex;
+	justify-content: flex-end;
+}
+#footer-container .fa{
+	color: white;
+}
+#footer-container .icono{
+	margin-right: 20px;
+	margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+	.main-content-area .container{
+		width: 100%;
+	}
+	#footer-container .nav{
+		display: flex;
+		justify-content: center;
+	}
+	#footer-container p{
+		color: white;
+		display: flex;
+		justify-content: center;
+	}
+	#footer-container .row .social{
+		text-align: center;
+	}
+	#footer-container .row .social .icono{
+		margin: 0;
+		padding: 0;
+	}
+}
